@@ -1,0 +1,36 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  height: 100vh;
+}
+
+.title {
+  background-color: purple;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  font-size: 25px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.tasks {
+  background-color: white;
+  color: purple;
+  padding: 50px; 
+  font-size: 24px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: purple;
+}
